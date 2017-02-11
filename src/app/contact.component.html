@@ -1,39 +1,33 @@
 <div *ngIf="clocation">
-  <p align="center"><img src="images/{{clocation.banner_img}}" width="600" height="60" border="0" alt="{{clocation.banner_alt}}">
+  <p align="center"><img src="images/contactbanner.gif" width="600" height="60" border="0" alt="Contact Us">
   </p>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p align="center"><font face="Lucida Sans Unicode" size="4">David and Sharon Clements</font></p>
+
   <p align="center">
-    <b>
-      <font color="#663300" face="Copperplate Gothic Bold" size="6">
-        {{clocation.description}}<br>
-        {{clocation.location}}
-      </font>
-    </b>
+    <font face="Lucida Sans Unicode" size="4">
+      Mount Brydges, ON
+      <br>
+      <br>
+      Phone:&nbsp; (519) 868-3294
+    </font>
   </p>
 
   <p align="center">
-    <img border="4" src="images/{{clocation.image}}" width="280" height="210">
+    <font face="Lucida Sans Unicode" size="4">
+      Email:&nbsp; <a href="mailto:ddclements@hotmail.com">ddclements@hotmail.com</a>
+    </font>
   </p>
 
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <p align="left">
-          <font color="#000000" face="Lucida Sans Unicode" size="4">
-            <i>
-              {{clocation.text1}}
-            </i>
-          </font>
-        </p>
-        <p align="left">
-          <font color="#000000" face="Lucida Sans Unicode" size="4">
-            <i>
-              {{clocation.text2}}
-            </i>
-          </font>
-        </p>
-      </blockquote>
-    </blockquote>
-  </blockquote>
+  <br>
+  <br>
+  <br>
+  <br>
   
   <p align="center">
     <a routerLink="/">
@@ -51,8 +45,6 @@
     <a routerLink="/">
       <img src="images/rates.gif" width="140" height="50" border="0" alt="Rates" onmouseover="this.src='images/rates_h.gif';" onmouseout="this.src='images/rates.gif';">
     </a>
-    <a routerLink="/{{clocation.id}}/contact">
-      <img src="images/contact.gif" width="140" height="50" border="0" alt="Contact Us" onmouseover="this.src='images/contact_h.gif';" onmouseout="this.src='images/contact.gif';">
-    </a>
+    <img src="images/contact_p.gif" width="140" height="50" border="0" alt="Contact Us">
   </p>
 </div>

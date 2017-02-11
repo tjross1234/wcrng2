@@ -7,8 +7,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LobbyComponent } from './lobby.component';
 import { LocationComponent } from './location.component';
-import { SrMainComponent } from './sr/sr-main.component';
 import { LocationService } from './location.service';
+import { ContactComponent } from './contact.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -18,7 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     LobbyComponent,
     LocationComponent,
-    SrMainComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
