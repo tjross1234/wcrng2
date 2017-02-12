@@ -1,0 +1,135 @@
+<div *ngIf="clocation">
+  <p align="center"><img src="images/ratesbanner.gif" width="600" height="60" border="0" alt="Contact Us">
+  </p>
+
+  <p align="center">
+    <b>
+      <font color="#663300" face="Copperplate Gothic Bold" size="6">
+        {{clocation.location2}}<br>
+        {{clocation.description}}
+      </font>
+    </b>
+  </p>
+
+  <blockquote>
+    <blockquote>
+      <table border=0 cellpadding="0" cellspacing="20">
+        <tr>
+          <td class="td-font-1" colspan="3">
+            Low Season:
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-2">
+            <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+            {{clocation.low_season_date1}}
+            <br>
+            <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+            {{clocation.low_season_date2}}
+            <div *ngIf="clocation.low_season_date3">
+              <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+              {{clocation.low_season_date3}}
+            </div>
+            <div *ngIf="clocation.low_season_date4">
+              <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+              {{clocation.low_season_date4}}
+            </div>
+          </td>
+          <td width="20"></td>
+          <td class="td-font-2">
+            {{clocation.low_season_rate1}}
+            <div *ngIf="clocation.low_season_rate2">
+              {{clocation.low_season_rate2}}
+            </div>
+            <div *ngIf="clocation.low_season_rate3">
+              {{clocation.low_season_rate3}}
+            </div>
+            <div *ngIf="clocation.low_season_rate4">
+              {{clocation.low_season_rate4}}
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-1" colspan="3">
+            High Season:
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-2">
+            <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+            {{clocation.high_season_date1}}
+          </td>
+          <td width="20"></td>
+          <td class="td-font-2">
+            {{clocation.high_season_rate}}
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-1" colspan="3">
+            Weekends / Midweek:
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-2">
+            <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+            Low season only
+          </td>
+          <td width="20"></td>
+          <td class="td-font-2">
+            {{clocation.weekend_rate1}}
+            <br>
+            {{clocation.weekend_rate2}}
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-1" colspan="3">
+            Holiday Weekends:
+          </td>
+        </tr>
+        <tr>
+          <td class="td-font-2">
+            <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+            Low season only
+          </td>
+          <td width="20"></td>
+          <td class="td-font-2">
+            {{clocation.holiday_rate1}}
+            <br>
+            {{clocation.holiday_rate2}}
+          </td>
+        </tr>
+      </table>
+    </blockquote>
+  </blockquote>
+
+  <div align="center">
+    <FORM action="http://www.cottagelink.com/displaycalendar.pl" method="post">
+      <INPUT type=hidden value="{{clocation.calendar_return_url}}" name="theLink">
+      <INPUT type=hidden value="{{clocation.calendar_usr}}" name="usr">
+      <INPUT type=hidden value="{{clocation.location2}}, {{clocation.description}}" name="heading">
+      <INPUT type=submit value="Click Here to Check Availability" name="SUBMIT">
+    </FORM>
+  </div>
+  
+  <p align="center">
+    <a routerLink="/">
+      <img src="images/home.gif" width="140" height="50" border="0" alt="Home" onmouseover="this.src='images/home_h.gif';" onmouseout="this.src='images/home.gif';">
+    </a>
+    <a routerLink="/">
+      <img src="images/information.gif" width="140" height="50" border="0" alt="Information" onmouseover="this.src='images/information_h.gif';" onmouseout="this.src='images/information.gif';">
+    </a>
+    <a routerLink="/">
+      <img src="images/cottagepics.gif" width="140" height="50" border="0" alt="Interior Photos" onmouseover="this.src='images/cottagepics_h.gif';" onmouseout="this.src='images/cottagepics.gif';">
+    </a>
+    <a routerLink="/">
+      <img src="images/exteriorpics.gif" width="140" height="50" border="0" alt="Exterior Photos" onmouseover="this.src='images/exteriorpics_h.gif';" onmouseout="this.src='images/exteriorpics.gif';">
+    </a>
+    <a routerLink="/{{clocation.id}}/rates">
+      <img src="images/rates_p.gif" width="140" height="50" border="0" alt="Rates">
+    </a>
+    <a routerLink="/{{clocation.id}}/contact">
+      <img src="images/contact.gif" width="140" height="50" border="0" alt="Contact Us" onmouseover="this.src='images/contact_h.gif';" onmouseout="this.src='images/contact.gif';">
+    </a>
+  </p>
+</div>

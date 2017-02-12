@@ -9,6 +9,7 @@ import { LobbyComponent } from './lobby.component';
 import { LocationComponent } from './location.component';
 import { LocationService } from './location.service';
 import { ContactComponent } from './contact.component';
+import { RatesComponent } from './rates.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     LobbyComponent,
     LocationComponent,
-    ContactComponent
+    ContactComponent,
+    RatesComponent
   ],
   imports: [
     BrowserModule,

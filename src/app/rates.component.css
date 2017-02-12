@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+}
+
+td {
+    vertical-align: top;
+}
+
+.td-font-1 {
+    font-family: "Copperplate Gothic Bold";
+    font-size: 14pt;
+}
+
+.td-font-2 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 13pt;
+}
