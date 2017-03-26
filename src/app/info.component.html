@@ -1,46 +1,44 @@
 <div *ngIf="clocation">
-  <p align="center"><img src="images/{{clocation.banner_img}}" width="600" height="60" border="0" alt="{{clocation.banner_alt}}">
+  <p align="center"><img src="images/infobanner.gif" width="600" height="60" border="0" alt="Contact Us">
   </p>
+
   <p align="center">
     <b>
       <font color="#663300" face="Copperplate Gothic Bold" size="6">
-        {{clocation.description}}<br>
-        {{clocation.location}}
+        {{clocation.location2}}<br>
+        {{clocation.description}}
       </font>
     </b>
   </p>
 
-  <p align="center">
-    <img border="4" src="images/{{clocation.image}}" width="280" height="210">
-  </p>
-
   <blockquote>
     <blockquote>
-      <blockquote>
-        <p align="left">
-          <font color="#000000" face="Lucida Sans Unicode" size="4">
-            <i>
-              {{clocation.text1}}
-            </i>
-          </font>
-        </p>
-        <p align="left">
-          <font color="#000000" face="Lucida Sans Unicode" size="4">
-            <i>
-              {{clocation.text2}}
-            </i>
-          </font>
-        </p>
-      </blockquote>
+      <div *ngFor="let infoitem of clocation.info_items">
+        <div *ngIf="infoitem.isheader" class="listheader">
+          <br>
+          {{infoitem.itemtext}}
+          <br>
+          <br>
+        </div>
+        <div *ngIf="infoitem.isitem" class="listitem">
+          <img border="0" src="images/flare.gif" width="15" height="15" hspace="13" alt="bullet">
+          {{infoitem.itemtext}}
+        </div>
+      </div>
     </blockquote>
   </blockquote>
   
+  
+
+
+
+
   <p align="center">
     <a routerLink="/">
       <img src="images/home.gif" width="140" height="50" border="0" alt="Home" onmouseover="this.src='images/home_h.gif';" onmouseout="this.src='images/home.gif';">
     </a>
     <a routerLink="/{{clocation.id}}/info">
-      <img src="images/information.gif" width="140" height="50" border="0" alt="Information" onmouseover="this.src='images/information_h.gif';" onmouseout="this.src='images/information.gif';">
+      <img src="images/information_p.gif" width="140" height="50" border="0" alt="Information">
     </a>
     <a routerLink="/">
       <img src="images/cottagepics.gif" width="140" height="50" border="0" alt="Interior Photos" onmouseover="this.src='images/cottagepics_h.gif';" onmouseout="this.src='images/cottagepics.gif';">

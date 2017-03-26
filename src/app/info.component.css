@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+}
+
+.listheader {
+  font-family: "Copperplate Gothic Bold";
+  font-size: 19pt;
+  font-style: bold;
+}
+
+.listitem {
+  font-family: "Lucida Sans Unicode";
+  font-size: 13pt;
+}

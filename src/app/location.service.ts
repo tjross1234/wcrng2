@@ -10,7 +10,7 @@ export class LocationService {
   }
 
   getClocation(id: string): Promise<Clocation> {
-  console.log (id);
+  //console.log (id);
   return this.getClocations()
              .then(clocations => clocations.find(clocation => clocation.id === id));
   }

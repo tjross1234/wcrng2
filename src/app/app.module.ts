@@ -10,6 +10,7 @@ import { LocationComponent } from './location.component';
 import { LocationService } from './location.service';
 import { ContactComponent } from './contact.component';
 import { RatesComponent } from './rates.component';
+import { InfoComponent } from './info.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,7 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
     LobbyComponent,
     LocationComponent,
     ContactComponent,
-    RatesComponent
+    RatesComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,

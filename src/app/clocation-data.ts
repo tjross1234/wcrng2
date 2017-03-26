@@ -27,7 +27,200 @@ export const CLOCATIONS: Clocation[] = [
     holiday_rate1:  '$500 for 3 nights',
     holiday_rate2:  '$90 each additional night',
     calendar_return_url: 'http://www.waterfrontcottagerentals.com/sr/',
-    calendar_usr: 'ON30668'
+    calendar_usr: 'ON30668',
+    info_items: [
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'Location:'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'two bedroom waterfront cottage on Horseshoe Lake'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'located on quiet bay'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'minutes off Highway 400/69, two hours north of Toronto'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'minutes south of Parry Sound'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'close to Lake Joseph and Lake Rosseau'
+      },
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'Horseshoe Lake:'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'large clear water lake fantastic for swimming, boating, water-skiing, tubing and fishing'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'fish varieties include yellow perch, northern pike, smallmouth bass, largemouth bass, rock bass, lake trout and rainbow trout'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'free boat launch at local marina just minutes from cottage'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'boat-up restaurant with ice cream bar and take-out service'
+      },
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'Cottage Amenities:'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'road access; minutes from Highway 400/69'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'three seasons rental property'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'beautiful view of Horseshoe Lake'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'southwest exposure for magnificent sunsets'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'sleeps 6; 2 bedrooms (1 queen, 1 double), 1 double pull-out couch'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'blankets supplied'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: '3-piece bath ( shower )'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'wood burning stove'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'full kitchen: stove, fridge, microwave, coffee maker, toaster, dishes and cutlery'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'propane bar-b-que (propane supplied)'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'fire pit'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'satellite, tv, dvd'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'large walk-around deck overlooking lake'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'patio furniture'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'large waterfront patio'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'canoe with paddles and lifejackets'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'boat dock'
+      },
+      
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'Need to Bring:'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'bed linens, pillows, towels and kitchen linens'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'children\'s lifejackets'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'drinking water'
+      },
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'Conditions of Rental:'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'no smoking'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'maximum occupancy 6'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'noise restriction after 11 pm'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'mature adults and families only'
+      }
+    ]
   },
   {
     id: 'wp',
@@ -55,7 +248,29 @@ export const CLOCATIONS: Clocation[] = [
     holiday_rate1:  '$575 for 3 nights',
     holiday_rate2:  '$100 each additional night',
     calendar_return_url: 'http://www.waterfrontcottagerentals.com/wp/',
-    calendar_usr: 'ON30838'
+    calendar_usr: 'ON30838',
+    info_items: [
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'first heading'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'first item'
+      },
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'second heading'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'first item'
+      }
+    ]
   },
   {
     id: 'bop',
@@ -83,6 +298,28 @@ export const CLOCATIONS: Clocation[] = [
     holiday_rate1: '$575 for 3 nights',
     holiday_rate2: '$100 each additional night',
     calendar_return_url: 'http://www.waterfrontcottagerentals.com/bop/',
-    calendar_usr: 'ON60527'
+    calendar_usr: 'ON60527',
+    info_items: [
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'first heading'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'first item'
+      },
+      {
+        isheader: true,
+        isitem: false,
+        itemtext: 'second heading'
+      },
+      {
+        isheader: false,
+        isitem: true,
+        itemtext: 'first item'
+      }
+    ]
   }
 ];

@@ -5,6 +5,7 @@ import { LobbyComponent } from './lobby.component';
 import { LocationComponent } from './location.component';
 import { ContactComponent } from './contact.component';
 import { RatesComponent } from './rates.component';
+import { InfoComponent } from './info.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: ':locationid/rates',
     component: RatesComponent
+  },
+  {
+    path: ':locationid/info',
+    component: InfoComponent
   }
 ];
 

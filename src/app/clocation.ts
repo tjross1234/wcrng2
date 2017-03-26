@@ -1,3 +1,5 @@
+import { Infoitem } from './infoitem';
+
 export class Clocation {
   id: string;
   name: string;
@@ -25,5 +27,5 @@ export class Clocation {
   holiday_rate2: string;
   calendar_return_url: string;
   calendar_usr: string;
-  
+  info_items: Infoitem[];
 }
