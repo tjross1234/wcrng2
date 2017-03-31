@@ -1,4 +1,4 @@
-import { Infoitem } from './infoitem';
+import { Infocat } from './infocat';
 
 export class Clocation {
   id: string;
@@ -27,5 +27,5 @@ export class Clocation {
   holiday_rate2: string;
   calendar_return_url: string;
   calendar_usr: string;
-  info_items: Infoitem[];
+  info_items: Infocat[];
 }
