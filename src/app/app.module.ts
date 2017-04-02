@@ -11,6 +11,7 @@ import { LocationService } from './location.service';
 import { ContactComponent } from './contact.component';
 import { RatesComponent } from './rates.component';
 import { InfoComponent } from './info.component';
+import { InfoDetailComponent } from './info-detail.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './app-routing.module';
     LocationComponent,
     ContactComponent,
     RatesComponent,
-    InfoComponent
+    InfoComponent,
+    InfoDetailComponent
   ],
   imports: [
     BrowserModule,
