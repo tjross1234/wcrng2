@@ -120,40 +120,40 @@ export const CLOCATIONS: Clocation[] = [
       {
         cat: 'Location:',
         dets: [
-          {det: 'two bedroom waterfront cottage on Horseshoe Lake'},
+          {det: 'waterfront cottage on Harris Lake'},
           {det: 'located on quiet bay'},
           {det: 'minutes off Highway 400/69, two hours north of Toronto'},
-          {det: 'minutes south of Parry Sound'},
-          {det: 'close to Lake Joseph and Lake Rosseau'}
+          {det: 'minutes northeast of Parry Sound'}
         ]
       },
       {
-        cat: 'Horseshoe Lake:',
+        cat: 'Harris Lake:',
         dets: [
           {det: 'large clear water lake fantastic for swimming, boating, water-skiing, tubing and fishing'},
-          {det: 'fish varieties include yellow perch, northern pike, smallmouth bass, largemouth bass, rock bass, lake trout and rainbow trout'},
-          {det: 'free boat launch at local marina just minutes from cottage'},
-          {det: 'boat-up restaurant with ice cream bar and take-out service'}
+          {det: 'fish varieties include yellow perch, rainbow trout, smallmouth bass and largemouth bass'},
+          {det: 'boat launch on lake minutes from cottage'},
+          {det: 'located on OFSC snowmobile trail system'}
         ]
       },
       {
         cat: 'Cottage Amenities:',
         dets: [
-          {det: 'road access; minutes from Highway 400/69'},
-          {det: 'three seasons rental property'},
-          {det: 'beautiful view of Horseshoe Lake'},
-          {det: 'southwest exposure for magnificent sunsets'},
-          {det: 'sleeps 6; 2 bedrooms (1 queen, 1 double), 1 double pull-out couch'},
+          {det: 'year-round road access; minutes from Highway 400/69'},
+          {det: 'four seasons rental property'},
+          {det: 'beautiful view of Harris Lake'},
+          {det: 'child-friendly waterfront and property'},
+          {det: 'southwest exposure for all day sunshine'},
+          {det: 'sleeps 8; 2 bedrooms (queen beds), 1 pull-out couch (double), 1 guest cottage (queen bed)'},
           {det: 'blankets supplied'},
-          {det: '3-piece bath ( shower )'},
-          {det: 'wood burning stove'},
+          {det: '4-piece bath'},
+          {det: 'gas fireplace'},
           {det: 'full kitchen: stove, fridge, microwave, coffee maker, toaster, dishes and cutlery'},
-          {det: 'fire pit'},
-          {det: 'satellite, tv, dvd'},
+          {det: 'washer and dryer'},
           {det: 'propane bar-b-que (propane supplied)'},
-          {det: 'large walk-around deck overlooking lake'},
+          {det: 'waterfront fire pit'},
+          {det: 'satellite, tv, dvd'},
           {det: 'patio furniture'},
-          {det: 'large waterfront patio'},
+          {det: 'large walk-around deck overlooking lake'},
           {det: 'canoe with paddles and lifejackets'},
           {det: 'boat dock'}
         ]
@@ -170,7 +170,7 @@ export const CLOCATIONS: Clocation[] = [
         cat: 'Conditions of Rental:',
         dets: [
           {det: 'no smoking'},
-          {det: 'maximum occupancy 6'},
+          {det: 'maximum occupancy 8'},
           {det: 'noise restriction after 11 pm'},
           {det: 'mature adults and families only'}
         ]
@@ -208,50 +208,54 @@ export const CLOCATIONS: Clocation[] = [
       {
         cat: 'Location:',
         dets: [
-          {det: 'two bedroom waterfront cottage on Horseshoe Lake'},
-          {det: 'located on quiet bay'},
-          {det: 'minutes off Highway 400/69, two hours north of Toronto'},
-          {det: 'minutes south of Parry Sound'},
-          {det: 'close to Lake Joseph and Lake Rosseau'}
+          {det: 'two bedroom cottage in exclusive, gated beachside community of Beach O\' Pines in Grand Bend, Ontario'},
+          {det: 'cottage is located on private beach path; 30 second walk along sand path to private beach'},
+          {det: '40 minutes northwest of London'},
+          {det: '2 hours west of Toronto'},
+          {det: 'south of historic Bayfield and Goderich'}
         ]
       },
       {
-        cat: 'Horseshoe Lake:',
+        cat: 'Lake Huron & Grand Bend:',
         dets: [
-          {det: 'large clear water lake fantastic for swimming, boating, water-skiing, tubing and fishing'},
-          {det: 'fish varieties include yellow perch, northern pike, smallmouth bass, largemouth bass, rock bass, lake trout and rainbow trout'},
-          {det: 'free boat launch at local marina just minutes from cottage'},
-          {det: 'boat-up restaurant with ice cream bar and take-out service'}
+          {det: 'private beach (30 second walk along sand path from cottage)'},
+          {det: 'sandy bottom and shallow entry ideal for swimming, boating, jet skiing, water-skiing and tubing, or playing in the sand all day'},
+          {det: 'beautiful, white sand beach'},
+          {det: 'numerous sand bars along shoreline'},
+          {det: 'spend the day at the beach, and then stroll along for the most beautiful sunsets you will ever experience'},
+          {det: 'boat launch at local marina just minutes from cottage'},
+          {det: 'local antique market and weekly flea market'},
+          {det: 'main street of Grand Bend features restaurants, bars, mini-golf and shops'},
+          {det: 'local fine dining and family dining'},
+          {det: 'seasonal theatre productions at the Huron Country Playhouse'},
+          {det: 'weekly events at Grand Bend Motorplex'},
+          {det: 'local bike trail and Rotary Nature Trail'},
+          {det: 'several golf courses in the area'}
         ]
       },
       {
         cat: 'Cottage Amenities:',
         dets: [
-          {det: 'road access; minutes from Highway 400/69'},
-          {det: 'three seasons rental property'},
-          {det: 'beautiful view of Horseshoe Lake'},
-          {det: 'southwest exposure for magnificent sunsets'},
-          {det: 'sleeps 6; 2 bedrooms (1 queen, 1 double), 1 double pull-out couch'},
+          {det: 'large, private lot located on beach path; 30 second walk to private beach'},
+          {det: 'four seasons rental property'},
+          {det: 'all-day sun in back yard, or shade from pine trees in side and front yards'},
+          {det: 'sleeps 6; 2 bedrooms with queen beds, 1 double pull-out couch in sunroom'},
           {det: 'blankets supplied'},
-          {det: '3-piece bath ( shower )'},
-          {det: 'wood burning stove'},
+          {det: '4-piece bath'},
+          {det: 'gas fireplace'},
           {det: 'full kitchen: stove, fridge, microwave, coffee maker, toaster, dishes and cutlery'},
+          {det: 'propane bar-b-que (propane supplied)'},
           {det: 'fire pit'},
           {det: 'satellite, tv, dvd'},
-          {det: 'propane bar-b-que (propane supplied)'},
-          {det: 'large walk-around deck overlooking lake'},
           {det: 'patio furniture'},
-          {det: 'large waterfront patio'},
-          {det: 'canoe with paddles and lifejackets'},
-          {det: 'boat dock'}
+          {det: 'air conditioned'}
         ]
       },
       {
         cat: 'Need to Bring:',
         dets: [
           {det: 'bed linens, pillows, towels and kitchen linens'},
-          {det: 'children\'s lifejackets'},
-          {det: 'drinking water'}
+          {det: 'beach accessories (chairs, sand toys, etc.)'}
         ]
       },
       {
